@@ -27,6 +27,8 @@ Fetch Frames from video. Detect change in aspect ratio using the following formu
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;AspectRatio=\frac{(x6-x2)+(x5-x3)}{2(x4-x1)}" title="\Large AspectRatio=\frac{(x6-x2)+(x5-x3)}{2(x4-x1)}" />
 
-Aspect ratio = (|x6-x2| + |x5-x3|)/2|x4-x1|
-				          
+
+![pageres](eyeAspectRatio.jpg "eyeAspectRatio")
+
+![pageres](AspectRatio_FrameRate.jpg "AspectRatio_FrameRate")				          
 

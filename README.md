@@ -26,23 +26,34 @@ The project in divided into 3 phase:
 Fetch Frames from video. Detect change in aspect ratio using the following formula. The lowering of aspect ratio and then rising indicates a blink.
 
 Lets say our eye points are as shown in image below:
+
+
 ![pageres](eyeAspectRatio.jpg "eyeAspectRatio")
 
 The our formula turns out to be
+
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;AspectRatio=\frac{(x6-x2)+(x5-x3)}{2(x4-x1)}" title="\Large AspectRatio=\frac{(x6-x2)+(x5-x3)}{2(x4-x1)}" />
 
 We can also see when a person blinks how aspect ratio dips
-![pageres](AspectRatio_FrameRate.jpg "AspectRatio_FrameRate")				          
+
+
+![pageres](AspectRatio_FrameRate.jpg "AspectRatio_FrameRate")
+
+
 
 ## Face Matching
 
 Image to intensity binary map (Gradient)
-![pageres](Matching1.png "Matching1")				          
+
+
+![pageres](Matching1.png "Matching1")
+
 Gradient Deviation to find uniqueness
 
 
 Face Detection to extract facial landmark
-![pageres](landmarksFace1.png "landmarksFace1")				          
+![pageres](landmarksFace1.png "landmarksFace1")
 
 Aligning face and finding similarity between gradient deviation of two images
-![pageres](faceMatchingHog.png "faceMatchingHog")				          
+![pageres](faceMatchingHog.png "faceMatchingHog")

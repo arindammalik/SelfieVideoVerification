@@ -96,4 +96,6 @@ And in this command image on social media is compared with open eye image
 python face_recognition_cli.py --toCompare 'path of image on social media platform' --main ../../BlinkDetector/suitableFrame/suitableFrameMax.jpeg
 ```
 
-If both the command pass, that mean user has succesfully passed the verification
+
+
+**If both the command pass, that mean user has succesfully passed the verification.**

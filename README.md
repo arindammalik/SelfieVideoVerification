@@ -42,18 +42,27 @@ We can also see when a person blinks how aspect ratio dips
 
 
 
+
 ## Face Matching
 
 Image to intensity binary map (Gradient)
+Gradient Deviation to find uniqueness
 
 
 ![pageres](Matching1.png "Matching1")
 
-Gradient Deviation to find uniqueness
 
 
 Face Detection to extract facial landmark
+
+
+
+
 ![pageres](landmarksFace1.png "landmarksFace1")
 
 Aligning face and finding similarity between gradient deviation of two images
+
+
+
+
 ![pageres](faceMatchingHog.png "faceMatchingHog")

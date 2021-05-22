@@ -66,3 +66,41 @@ Aligning face and finding similarity between gradient deviation of two images
 
 
 ![pageres](faceMatchingHog.png "faceMatchingHog")
+
+## Commands to run
+
+### To record video:
+
+Open your browser and type in the path of the current project and 'MediaRecorder/index.html'
+This will show recording interface where you can record the video and download it
+
+### Motion/Blink Detection:
+
+The following command will run the number of blinks in downloaded video when you run it inside BlinkDetector folder and pass the path of video that was downloaded. This will also save the image when person has maximum (open-eyes) and minimum (closed-eyes) aspect ratio. (Blinking)
+```
+python detect_blinks.py --shape-predictor shape_predictor_68_face_landmarks.dat --video 'path of video'
+```
+
+### Face Matching:
+
+Run the following command to compare the open-closed eye images computed in last part with the each other and the photo that is on social media platform.
+By comparing both open and closed eye image we make sure that a still-image from phone/frame are not shown and blinking image that were captured are compared.
+
+In this command the open and closed are compared between themselves
+```
+python face_recognition_cli.py --toCompare ../../BlinkDetector/suitableFrame/suitableFrameMin.jpeg --main ../../BlinkDetector/suitableFrame/suitableFrameMax.jpeg
+```
+
+And in this command image on social media is compared with open eye image
+```
+python face_recognition_cli.py --toCompare 'path of image on social media platform' --main ../../BlinkDetector/suitableFrame/suitableFrameMax.jpeg
+```
+
+
+
+**If both the command pass, that mean user has succesfully passed the verification.**
+
+
+## Stuck somewhere?
+Please feel free to reach out to me here:
+[Arindam Malik](mailto:arindammalik96@gmail.com)

@@ -99,3 +99,8 @@ python face_recognition_cli.py --toCompare 'path of image on social media platfo
 
 
 **If both the command pass, that mean user has succesfully passed the verification.**
+
+
+## Stuck somewhere?
+Please feel free to reach out to me here:
+[Arindam Malik](mailto:arindammalik96@gmail.com)

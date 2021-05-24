@@ -49,7 +49,7 @@ Image to intensity binary map (Gradient)
 Gradient Deviation to find uniqueness
 
 
-![pageres](Matching1.png "Matching1")
+![pageres](Matching.png "Matching")
 
 
 
@@ -58,7 +58,7 @@ Face Detection to extract facial landmark
 
 
 
-![pageres](landmarksFace1.png "landmarksFace1")
+![pageres](landmarksFace.png "landmarksFace")
 
 Aligning face and finding similarity between gradient deviation of two images
 
